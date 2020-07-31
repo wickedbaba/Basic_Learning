@@ -1,0 +1,37 @@
+mylist = ["C","C++","Python"]
+print(mylist)
+print(mylist[0])
+print(len(mylist))
+mylist.append("Java")
+mylist.insert(1,"java")
+print(mylist)
+mylist.remove("C++")
+mylist.append("C++")
+mylist.append("C+")
+print(mylist)
+mylist.sort()
+print(mylist)
+mySet={"C","C++","Python"}
+print(mySet)
+print(len(mySet))
+mySet.add("Java")
+print(mySet)
+mySet.add("Java")
+print(mySet)
+mySet.remove("Java")
+print(mySet)
+myTuple=("C","C++","Python")
+print(myTuple)
+print(myTuple[1])
+print(len(myTuple))
+myDict={"C":"Easy","C++":"Moderate","Java":"Tough"}
+print(myDict)
+print(len(myDict))
+print(myDict["Java"])
+print(myDict.get("C"))
+myDict["Python"]="Beginner"
+print(myDict)
+del myDict["Java"]
+print(myDict)
+# myDict.pop("Java")
+del myDict
